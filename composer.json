@@ -1,0 +1,23 @@
+{
+    "name": "thorik/jockey",
+    "description": "Tempat Mabar dan Joki",
+    "type": "project",
+    "require-dev": {
+        "phpunit/php-timer": "^6.0",
+        "ext-mysqlnd": "^0.0.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Thorik\\Jockey\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Moch Thoriqul Firdaus",
+            "email": "mocthoriqul12@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}

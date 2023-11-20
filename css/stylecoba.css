@@ -1,0 +1,52 @@
+
+/* Add your custom CSS styles here */
+.transaction-history {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Membagi tampilan menjadi tiga kolom */
+  gap: 20px; /* Jarak antara kolom */
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.transaction-item {
+  background-color: #333; /* Warna latar belakang gelap */
+  color: #fff; /* Warna teks putih */
+  border: 1px solid #555; /* Garis tepi sedikit lebih terang */
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.transaction-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222; /* Warna latar belakang header lebih gelap */
+  padding: 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.transaction-header h3 {
+  margin: 0;
+}
+
+.badge {
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+.badge-primary {
+  background-color: #007bff; /* Warna biru yang lebih gelap */
+  color: #fff;
+}
+
+.badge-success {
+  background-color: #28a745; /* Warna hijau yang lebih gelap */
+  color: #fff;
+}
+
+.transaction-details {
+  margin-top: 10px;
+}
